@@ -3,13 +3,15 @@
 
 #include <iostream>
 
-using namespace std;
+//using namespace std; // using directive can cause problems with namespace clash
+using std::cout; 
+using std::endl; // this better
 
 int main()
 {
     cout << "Hello World!\n";
     int age = 39;
-    cout << age<<endl;
+    cout << age << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
