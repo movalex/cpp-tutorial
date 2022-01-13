@@ -5,14 +5,18 @@
 
 //using namespace std; // using directive can cause problems with namespace clash
 using std::cout; 
-using std::endl; // this better
+using std::endl;
+using std::cin;
 
 int main()
 {
     cout << "Hello World!\n";
     int age = 39;
     cout << "I'm " << age << " years old." << endl;
-    int slices = 10;
+    int slices;
+
+    cin >> slices;
+
     printf("You have %i slices of pizza\n", slices);
 }
 
