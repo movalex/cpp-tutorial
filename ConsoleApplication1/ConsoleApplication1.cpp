@@ -12,6 +12,8 @@ int main()
     cout << "Hello World!\n";
     int age = 39;
     cout << "I'm " << age << " years old." << endl;
+    int slices = 10;
+    printf("You have %i slices of pizza\n", slices);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
