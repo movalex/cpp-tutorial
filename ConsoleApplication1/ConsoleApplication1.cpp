@@ -14,7 +14,7 @@ int main()
     int age = 39;
     cout << "I'm " << age << " years old." << endl;
     int slices;
-
+    cout << "How many slices of pizza do you wwant to eat?\n";
     cin >> slices;
 
     printf("You have %i slices of pizza\n", slices);
