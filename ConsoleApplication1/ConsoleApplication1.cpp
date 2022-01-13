@@ -3,8 +3,8 @@
 
 #include <iostream>
 
-//using namespace std; // using directive can cause problems with namespace clash
-using std::cout; 
+//using namespace std; // using namespace can cause problems with namespace clash
+using std::cout; // using directive is better
 using std::endl;
 using std::cin;
 
